@@ -1,0 +1,16 @@
+# Local/editor files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Do not commit real patient exports or database dumps
+*.sql
+*.sqlite
+*.db
+patient-data/
+exports/
